@@ -1,0 +1,14 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.card {
+  margin: 0 2% !important;
+}
+.media {
+  height: 450px;
+}
+.detailscontainer {
+  width: 50%;
+  margin: 50px auto;
+}
