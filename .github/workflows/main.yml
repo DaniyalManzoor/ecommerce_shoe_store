@@ -30,7 +30,7 @@ jobs:
       run: yarn build
       
     - name: installing surge  
-      run: npm install -g surge@2.88.2
+      run: yarn install -g surge
       
     - name: deploying on surge
       run: surge ./build ecommerce_shoe_store_28.surge.sh --token ${{secrets.SURGE_TOKEN}}
